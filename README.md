@@ -1,11 +1,1 @@
 # justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
-# justeHe.github.io
