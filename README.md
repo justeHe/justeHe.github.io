@@ -1,1 +1,1 @@
-Welcome to Juste's website  !
+Welcome to Juste's website!
