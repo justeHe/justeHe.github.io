@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(star-sky.png);
+    background-position: center;
+    background-size: cover ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1fb7d5ef;
+    padding: 15px 30px;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(76, 160, 224); 
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
