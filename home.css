@@ -7,11 +7,16 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
     background-image: url(coffee-time.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
 }
 
+.col-0{width: 11.3%;}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -35,19 +40,54 @@ body {
 
 .menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding: 0px ;
+    height: 35px;
+    background-color :#1e6670;
 }
+
 .menu li {
+    display: inline;
+    float:inline-start;
+    text-align: center;
+    text-decoration: none;
     padding: 8px;
     margin-bottom: 7px;
-    background-color :#1e6670;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: #ffffff
+    
+}
+
+.menu li a{
+    display: block;
+    cursor: pointer;
+}
+
+
+.menu li a:hover{
+    background-color: gray;
 }
 
 
 [class*="col-"] {
     float: left;
     padding: 15px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 100vh;
+    margin-left: 20vw;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: xxx-large;
+    font-style: italic;
 }
