@@ -3,16 +3,15 @@ html {
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-image: url(coffee-time.png);
+    background-image: url(../Picture/coffee-time.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: rgb(122, 184, 178);
     overflow: auto;
 }
 
@@ -90,4 +89,12 @@ body {
     color: #ffffff;
     font-size: xxx-large;
     font-style: italic;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255,0);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
 }

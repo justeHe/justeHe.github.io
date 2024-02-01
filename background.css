@@ -3,9 +3,10 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: url(star-sky.png);
+    background-image: url(Picture/star-sky.png);
     background-position: center;
     background-size: cover ;
+    background-color: black;
 }
 
 .container {

@@ -1,0 +1,60 @@
+.catalogue ul{
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 3px;
+    border: 1px;
+    border: dashed;
+    border-color: rgb(25, 145, 89);
+    width: 15vw;
+    overflow: auto;
+    background-color: rgba(83, 185, 161, 0.5);
+
+}
+
+.catalogue li{
+    margin: 2px;
+    margin-top: 10px;
+    width: max-content;
+    height: fit-content;
+    color: aliceblue;
+}
+
+.catalogue li a{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.catalogue li a:hover{
+    color: black;
+}
+
+.view {
+    display: flex;
+    min-width: 0;
+}
+
+.content{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 75vh;
+    width: 80vw;
+    overflow-y: auto;
+    background-color: rgb(248, 250, 249,0.5);
+    color: black;
+}
+
+.read{
+    width: 20vw;
+    margin-top: 40px;
+    margin-right: 10px;
+    background-color: rgba(83, 185, 161, 0.5);
+    color: aliceblue;
+}
+
+h1{
+    float: left;
+}
+
